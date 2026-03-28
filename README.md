@@ -31,7 +31,7 @@ Deployed on ▲ **Vercel** for lightning-fast performance 🚀.
 ## Installation
 
 ```bash
-git clone https://github.com/davismiler/nike-flow.git
+git clone https://github.com/Polin9912/Test-dev.git
 cd nike-flow
 npm install
 npm run dev
