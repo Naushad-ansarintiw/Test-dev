@@ -346,3 +346,9 @@
     font-weight: 700;
   }
 }
+
+/* react-mouse-follower always uses border-radius: 9999px; no square option in API */
+#mouse-follower,
+#mouse-follower * {
+  border-radius: 0 !important;
+}
