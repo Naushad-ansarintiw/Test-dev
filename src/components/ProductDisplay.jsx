@@ -23,10 +23,10 @@ const ProductDisplay = (props) => {
             <div className='flex md:1/2 flex-col mt-8 md:mt-0'>
                 <h1 className='text-foreground text-4xl font-bold'>{product.name}</h1>
                 <div className='flex items-center gap-1 text-gray-300 text-lg mt-4'>
-                    <Star fill='#138695' />
-                    <Star fill='#138695' />
-                    <Star fill='#138695' />
-                    <Star fill='#138695' />
+                    <Star fill='#FFFF00' />
+                    <Star fill='#FFFF00' />
+                    <Star fill='#FFFF00' />
+                    <Star fill='#FFFF00' />
                     <Star fill='gray' />
                     <p>(122)</p>
                 </div>
@@ -48,7 +48,7 @@ const ProductDisplay = (props) => {
                     </div>
                 </div>
                 <Link to='/cart'>
-                    <button onClick={() => { addToCart(product.id) }} className='bg-[#138695] text-white px-6 py-3 my-4 w-max'>ADD TO CART</button>
+                    <button onClick={() => { addToCart(product.id) }} className='bg-[#138695] text-white px-6 py-3 my-4 w-max'>ADD TO Card</button>
                 </Link>
                 <p className='text-gray-300'><span className='font-semibold'>Category :</span> Sports, Gym, Running</p>
                 <p className='text-gray-300'><span className='font-semibold'>Tags :</span> Modern, Latest</p>

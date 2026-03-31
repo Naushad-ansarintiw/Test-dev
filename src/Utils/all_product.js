@@ -67,7 +67,7 @@ let all_product = [
     },
     {
       id: 7,
-      name: "Nike Air Max 97 Futura",
+      name: "Nike Air Max 97 Fura",
       category: "women",
       image: 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5bc5e08f-72d4-4c84-9252-205d17cdb730/W+AIR+MAX+97+FUTURA.png',
       image1: 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/48f18af6-c29d-4e43-8319-cbc66d82ab45/W+AIR+MAX+97+FUTURA.png',
